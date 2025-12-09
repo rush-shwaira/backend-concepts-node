@@ -1,0 +1,28 @@
+{
+  "name": "rate-limit-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development tsx src/server.ts",
+    "build": "tsc",
+    "start": "cross-env NODE_ENV=production node dist/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.23.0",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "ioredis": "^5.8.2",
+    "rate-limit-redis": "^4.3.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
