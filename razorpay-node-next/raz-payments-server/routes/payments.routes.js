@@ -1,0 +1,10 @@
+// raz-payments-server/routes/payments.routes.js
+const express = require("express")
+const { createOrder, verifyPayment } = require("../controllers/payments.controllers")
+
+const router = express.Router()
+
+router.post("/createOrder", createOrder)
+router.post("/verifyPayment", verifyPayment)
+
+module.exports = router
