@@ -1,0 +1,2 @@
+This is demo text
+Written in sample.txt
